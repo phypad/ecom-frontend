@@ -19,7 +19,7 @@ function Register() {
     const registerHandler = async (e) => {
         e.preventDefault()
         try {
-            const res = await fetch("https://startech-ecom-api-scax.onrender.com/api/register", {
+            const res = await fetch("https://startech-x1k9.onrender.com/api/register", {
                 method: "POST", headers: {"Content-Type" : "application/json"},
                 body: JSON.stringify({ firstName, lastName, phone, email, password, confirmPassword })
             })

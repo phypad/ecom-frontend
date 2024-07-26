@@ -41,7 +41,7 @@ export const EcomProvider = ({ children }) => {
 
   const addToCart = async (productId) => {
     try {
-      const res = await fetch("https://startech-ecom-api-scax.onrender.com/api/add-to-cart", {
+      const res = await fetch("https://startech-x1k9.onrender.com/api/add-to-cart", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -78,7 +78,7 @@ export const EcomProvider = ({ children }) => {
 
   const fetchCart = async () => {
     try {
-      const res = await fetch("https://startech-ecom-api-scax.onrender.com/api/cart", {
+      const res = await fetch("https://startech-x1k9.onrender.com/api/cart", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -100,7 +100,7 @@ export const EcomProvider = ({ children }) => {
     }
 
     try {
-      const res = await fetch("https://startech-ecom-api-scax.onrender.com/api/update-quantity", {
+      const res = await fetch("https://startech-x1k9.onrender.com/api/update-quantity", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -133,7 +133,7 @@ export const EcomProvider = ({ children }) => {
 
   const deleteItem = async (productId) => {
     try {
-      const res = await fetch("https://startech-ecom-api-scax.onrender.com/api/remove-item", {
+      const res = await fetch("https://startech-x1k9.onrender.com/api/remove-item", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -156,7 +156,7 @@ export const EcomProvider = ({ children }) => {
 
   const createOrder = async (transaction_id, orderId) => {
     try {
-      const response = await fetch("https://startech-ecom-api-scax.onrender.com/api/payment/verify", {
+      const response = await fetch("https://startech-x1k9.onrender.com/api/payment/verify", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

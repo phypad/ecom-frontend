@@ -59,7 +59,7 @@ function Checkout() {
                 <td>{item.product.name}</td>
                 <td className="flex justify-center">
                   <img
-                    src={"https://startech-ecom-api-scax.onrender.com/" + item.product.img}
+                    src={"https://startech-x1k9.onrender.com/" + item.product.img}
                     alt=""
                     className="lg:h-[70px] md:h-[70px] h-[50px] object-cover"
                   />

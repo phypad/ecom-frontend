@@ -20,7 +20,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const res = await fetch("https://startech-ecom-api-scax.onrender.com/api/login", {
+      const res = await fetch("https://startech-x1k9.onrender.com/api/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
