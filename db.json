@@ -1,0 +1,112 @@
+{
+    "starTech": [
+        {
+            "id": 1,
+            "name": "Nike 1",
+            "price": 300,
+            "img": "/img/nike-1.png",
+            "featured": true,
+            "topSelling": false,
+            "category": "Nike 1"
+        },
+        {
+            "id": 2,
+            "name": "Nike 2",
+            "price": 403,
+            "img": "/img/nike-2.png",
+            "featured": false,
+            "topSelling": true,
+            "category":"Nike 2"
+        },
+        {
+            "id": 3,
+            "name": "Nike 3",
+            "price": 190,
+            "img": "/img/nike-3.png",
+            "featured": true,
+            "topSelling": false,
+            "category": "Nike 3"
+        },
+        {
+            "id": 4,
+            "name": "Nike 4",
+            "price": 230,
+            "img": "/img/nike-4.jpeg",
+            "featured": false,
+            "topSelling": false,
+            "category": "Nike 4"
+        },
+        {
+            "id": 5,
+            "name": "Adidas 1",
+            "price": 160,
+            "img": "/img/adidas-1.jpg",
+            "featured": true,
+            "topSelling": false,
+            "category": "Addidas 1"
+        },
+        {
+            "id": 6,
+            "name": "Adidas 2",
+            "price": 120,
+            "img": "/img/adidas-2.jpg",
+            "featured": false,
+            "topSelling": false,
+            "category": "Addidas 2"
+        },
+        {
+            "id": 7,
+            "name": "Adidas 3",
+            "price": 504,
+            "img": "/img/adidas-3.jpg",
+            "featured": false,
+            "topSelling": true,
+            "category": "Addidas 3"
+        },
+        {
+            "id": 8,
+            "name": "Adidas 4",
+            "price": 320,
+            "img": "/img/adidas-4.jpg",
+            "featured": false,
+            "topSelling": true,
+            "category": "Addidas 4"
+        },
+        {
+            "id": 9,
+            "name": "Reebok 1",
+            "price": 301,
+            "img": "/img/reebok-1.jpg",
+            "featured": true,
+            "topSelling": false,
+            "category": "Reebok 1"
+        },
+        {
+            "id": 10,
+            "name": "Reebok 2",
+            "price": 130,
+            "img": "/img/reebok-2.jpg",
+            "featured": false,
+            "topSelling": false,
+            "category": "Reebok 2"
+        },
+        {
+            "id": 11,
+            "name": "Reebok 3",
+            "price": 430,
+            "img": "/img/reebok-3.jpg",
+            "featured": false,
+            "topSelling": false,
+            "category": "Reebok 3"
+        },
+        {
+            "id": 12,
+            "name": "Reebok 4",
+            "price": 600,
+            "img": "/img/reebok-4.jpg",
+            "featured": false,
+            "topSelling": true,
+            "category": "Reebok 4"
+        }
+    ]
+}
