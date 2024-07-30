@@ -31,8 +31,9 @@ export const EcomProvider = ({ children }) => {
   }, [cartItems]);
 
   const fetchProduct = async () => {
-    const res = await fetch("https://startech-ecom-api-scax.onrender.com/api/product");
+    const res = await fetch("https://startech-x1k9.onrender.com/api/product");
     const data = await res.json();
+    // console.log(data);
     setProduct(data);
   };
 
